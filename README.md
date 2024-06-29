@@ -1,6 +1,3 @@
-Alp Eren Gürle
-SOLID prensiplerine uygun bir şekilde Rick & Morty çizgi dizisinin açık API aracılığı ile React
-Native alt yapısı kullanılarak çizgi karakterleri tanıtan bir uygulama hazırlanmıştır.
 Proje Gereksinimleri :
 ●  Her bölüme ait tüm karakter ve özelliklerini gösteren kartlar için sayfalama
 ● Her bir listeleme için (Bölümler, karakterler vb. ) herhangi bir karakter ismi veya
@@ -9,13 +6,12 @@ Proje Gereksinimleri :
 ● Karakterler listeleniyor ayrıca karakter ile ilgili bilgiler ekrana dökülüyor.
 ● favori karakter seçimi yapılır ayrıca favori karakter sayfası oluşturulmuştur 10 taneden fazlaya izin verilmemiştir. sil butonu yer almaktadır. Ekran resimlerinde her şey yer almaktadır.
 
-## Step 1: Uygulamayı açtığımızda bizi bölümlerin listelendiği sayfa karşılamaktadır. Buradan arama yapmadan manuel olarak next diğerek diğer sayfaya geçiş yapıp bölümleri inceleyebiliriz
-## Step 2: Search Episodes butonuna basarsak arama yapabileceğimiz sayfaya yönlendiirir buradan aramak istediğimiz bölümün adını giriyoruz ve o bölüm karşımıza çıkıyor çıkmak için x tuşuna basıyoruz bizi ana sayfaya yönlendiriyor
-## Step 3: İstediğimiz bölüme bastığımızda bizi EpisodeDetail sayfası karşılıyor. Burada bölümün adını yayın tarihini ve o bölümde oynamış karakterleri görebiliyoruz.
-## Step 4: Bölümde oynamış bir karaktere basınca CharacterDetail sayfasına yönlendiriyor. Burada karakterin resmini status, species, gender, origin ve location bilgilerini görüntülüyoruz eğer istersek favoriye ekliyoruz veya favoriden kaldırıyoruz.
-## Step 2: Anasayfadan Search Characters butonuna basarsak bizi karakterlerin ismine veya özelliklerine göre arama  yapabileceğimiz ekrana yönlendiriyor arama butonu çıkıyor, burada istersek ismini, istersek status, species
-gender, bilgisini arıyoruz bu sayfada o isme sahip karakterler veya  aynı özelliklere sahip karakterler ortaya çıkıyor bastığımızda yine characterdetail sayfasına yönlendiriyor
-## Step 5:  Favoriler adlı sayfamız bulunmakta burada favoriye eklediğimiz karakterleri görüyoruz 10 taneden fazla karakter ekleyemiyoruz. Eklemek istediğimizde hata veriyor.  Kaldırmak istersek bize pop-up ekranında uyarı veriyor emin misiniz diye evete basarsak karakter siliniyor
+# 1: Uygulamayı açtığımızda bizi bölümlerin listelendiği sayfa karşılamaktadır. Buradan arama yapmadan manuel olarak next diğerek diğer sayfaya geçiş yapıp bölümleri inceleyebiliriz
+# 2: Search Episodes butonuna basarsak arama yapabileceğimiz sayfaya yönlendiirir buradan aramak istediğimiz bölümün adını giriyoruz ve o bölüm karşımıza çıkıyor çıkmak için x tuşuna basıyoruz bizi ana sayfaya yönlendiriyor
+# 3: İstediğimiz bölüme bastığımızda bizi EpisodeDetail sayfası karşılıyor. Burada bölümün adını yayın tarihini ve o bölümde oynamış karakterleri görebiliyoruz.
+# 4: Bölümde oynamış bir karaktere basınca CharacterDetail sayfasına yönlendiriyor. Burada karakterin resmini status, species, gender, origin ve location bilgilerini görüntülüyoruz eğer istersek favoriye ekliyoruz veya favoriden kaldırıyoruz.
+# 5: Anasayfadan Search Characters butonuna basarsak bizi karakterlerin ismine veya özelliklerine göre arama  yapabileceğimiz ekrana yönlendiriyor arama butonu çıkıyor, burada istersek ismini, istersek status, species gender, bilgisini arıyoruz bu sayfada o isme sahip karakterler veya  aynı özelliklere sahip karakterler ortaya çıkıyor bastığımızda yine characterdetail sayfasına yönlendiriyor
+# 6:  Favoriler adlı sayfamız bulunmakta burada favoriye eklediğimiz karakterleri görüyoruz 10 taneden fazla karakter ekleyemiyoruz. Eklemek istediğimizde hata veriyor.  Kaldırmak istersek bize pop-up ekranında uyarı veriyor emin misiniz diye evete basarsak karakter siliniyor
 
 ![Screenshot_1717294382](https://github.com/alpgurlee/RickAndMortyApp/assets/66573571/909c201c-d494-4b22-9924-1b747acecaba)
 ![Screenshot_1717295431](https://github.com/alpgurlee/RickAndMortyApp/assets/66573571/ccc1f43b-6412-4b0c-9ad8-b1af32b91d0d)
@@ -56,82 +52,3 @@ gender, bilgisini arıyoruz bu sayfada o isme sahip karakterler veya  aynı öze
 
 
 
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
-# Getting Started
-
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
